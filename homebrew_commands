@@ -1,0 +1,15 @@
+#!/bin/bash
+
+brew update                       # Fetch latest version of homebrew and formula.
+
+brew tap caskroom/cask            # Tap the Caskroom/Cask repository from Github using HTTPS.
+
+brew cask search postman          # Searches all known Casks for a partial or exact match.
+brew cask info postman            # Displays information about the given Cask
+
+brew cask install postman         # Install the given cask.
+
+brew cask cleanup                 # For all installed or specific casks, remove any older versions from the cellar.
+brew cleanup                      # For all installed or specific formulae, remove any older versions from the cellar.
+
+# Visit https://www.code2bits.com
